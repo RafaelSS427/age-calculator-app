@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://rafaelss427.github.io/[repositoryName])
+- Live Site URL: [Add live site URL here](https://rafaelss427.github.io/age-calculator-app/)
 
 ## My process
 
