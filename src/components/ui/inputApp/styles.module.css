@@ -1,0 +1,80 @@
+
+.input-label {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--smokeyGrey);
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.input-app {
+    width: 100%;
+    max-width: 125px;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+    font-size: 24px;
+    padding: 12px 18px;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid var(--lightGrey);
+    caret-color: var(--purple);
+    color: var(--offBlack);
+    font-weight: 800;
+}
+
+.input-app::placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--smokeyGrey);
+}
+
+.input-app:hover {
+    border-color: var(--purple);
+}
+
+.input-app:focus-visible {
+    border-color: var(--purple);
+}
+
+.input-helper {
+    font-style: italic;
+    font-size: 12px;
+    color: var(--lightRed)
+}
+
+/* Error */
+.input-error .input-label {
+    color: var(--lightRed);
+}
+
+.input-error .input-app {
+    border-color: var(--lightRed);
+}
+
+/* Remove arrows */
+.input-app::-webkit-inner-spin-button,
+.input-app::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+@media (max-width: 900px) {
+    
+    .input-app {
+        width: 125px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    .input-label {
+        font-size: 12px;
+    }
+    
+    .input-app {
+        width: 100%; 
+        font-size: 16px;
+        padding: 12px 12px;
+    }
+    
+}
